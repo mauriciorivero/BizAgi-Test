@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    
+}
+
+.top-menu{
+    background-color: gray;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+.top-menu div{
+    align-items: center;
+    display: flex;
+    width: 30rem;
+}
+
+.top-menu div:last-child{
+    color: white;
+}
+
+.top-menu div *{
+    margin: 0 .2rem 0 .2rem;
+}
+
+.top-menu div h3{
+    color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.top-menu span{
+    color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.top-menu div a{
+    color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.top-menu div a span{
+    color: greenyellow;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.main-menu{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
