@@ -8,7 +8,7 @@ html{
     font-size: 62.5%;
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1280px) {
   
     header{
         display: flex;
@@ -44,6 +44,7 @@ html{
         color: white;
         font-size: 1.5rem;
         font-family: sans-serif;
+        font-weight: 100;
     }
     
     .top-menu span{
@@ -299,13 +300,13 @@ html{
         padding: 1rem 0;
     }
     
-    .top-footer div{
+    .top-footer > div{
         align-items: center;
         display: flex;
         justify-content: space-between;
     }
     
-    .top-footer div a{
+    .top-footer > div a{
         color: #fff;
         font-family: sans-serif;
         font-weight: bold;
@@ -323,6 +324,48 @@ html{
     .top-footer div img{
         width: 2.5rem;
     }
+
+    .top-footer div:last-child{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-footer div:last-child img{
+        height: 2rem;
+        margin-left: 0.8rem;
+        width: 2rem;
+    }
+
+    .bottom-footer{
+        align-items: center;
+        background-color: #415A69;
+        display: flex;
+        justify-content: center;
+        padding: 0.7rem 0 0.7rem 0;
+    }
+
+    .bottom-footer span:first-child{
+        color: #6E8346;
+        font-family: sans-serif;
+    }
+
+    .bottom-footer span{
+        color: #FFF;
+        font-family: sans-serif;
+        margin: 0 0.3rem;
+    }
+
+    .bottom-footer a{
+        color: #FFF;
+        font-family: sans-serif;
+        text-decoration: none;
+    }
     
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    
+  }
 
