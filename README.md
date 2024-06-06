@@ -9,4 +9,4 @@ This repository contains the implementation for the mockup test of the Bizagi in
 
 ## Contact
 
-If you have any questions, feel free to reach out to Mauro at [mauro@mrtd2.co](mailto:mauro@mrtd2.co).
+If you have any questions, feel free to reach out to Mauro at [mauro@mrd2.co](mailto:mauro@mrd2.co).
